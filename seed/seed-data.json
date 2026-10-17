@@ -1,0 +1,1649 @@
+{
+  "_note": "Starter content. Edit here and run `npm run seed` to regenerate supabase/seed.sql and public/data/demo-content.json, or edit everything live from /admin once deployed. Items marked (illustrative) or left blank must be verified/filled by the department.",
+  "settings": [
+    {
+      "key": "university_name",
+      "label": "University name",
+      "value": "Dr. Babasaheb Ambedkar Open University"
+    },
+    {
+      "key": "university_short",
+      "label": "University short name",
+      "value": "BAOU"
+    },
+    {
+      "key": "department_name",
+      "label": "Department name",
+      "value": "Department of English"
+    },
+    {
+      "key": "school_name",
+      "label": "School name",
+      "value": "School of Humanities and Social Sciences (SHSS)"
+    },
+    {
+      "key": "city",
+      "label": "City line",
+      "value": "Ahmedabad, Gujarat"
+    },
+    {
+      "key": "hero_kicker",
+      "label": "Hero kicker",
+      "value": "Open & Distance Learning · BAOU"
+    },
+    {
+      "key": "hero_title",
+      "label": "Hero title",
+      "value": "Where Every Reader Becomes a Scholar"
+    },
+    {
+      "key": "hero_subtitle",
+      "label": "Hero subtitle",
+      "value": "Literature, language and thought — taught at a distance, studied up close. The Department of English brings the canon and the vernacular together for learners across Gujarat and beyond."
+    },
+    {
+      "key": "epigraph",
+      "label": "Epigraph",
+      "value": "स्वाध्यायान्मा प्रमदः — Never neglect your own study."
+    },
+    {
+      "key": "epigraph_source",
+      "label": "Epigraph source",
+      "value": "Taittirīya Upaniṣad 1.11"
+    },
+    {
+      "key": "overview_body",
+      "label": "Overview paragraphs (one per line)",
+      "value": [
+        "The Department of English at Dr. Babasaheb Ambedkar Open University offers programmes in English language and literature designed for the open and distance learner — the working professional, the homemaker, the first-generation graduate and the lifelong reader alike.",
+        "Our curriculum, shaped by NEP 2020, reads British, American and world literatures alongside Indian Writing in English, translation, and the living traditions of Indian Knowledge Systems. Self-Learning Material, video lectures and the department's Smart SLM (SSLM) initiative let learners study at their own pace without losing the rigour of a university classroom.",
+        "Whether you are preparing for UGC NET, a teaching career, translation and publishing, or simply returning to the books you love, the department is here to guide your reading."
+      ]
+    },
+    {
+      "key": "quick_links",
+      "label": "Quick links (label | https://url, one per line)",
+      "value": [
+        "University Website | https://baou.edu.in"
+      ]
+    },
+    {
+      "key": "results_portal_url",
+      "label": "Results portal URL",
+      "value": "https://baou.edu.in"
+    },
+    {
+      "key": "contact_email",
+      "label": "Department contact email",
+      "value": ""
+    },
+    {
+      "key": "contact_phone",
+      "label": "Department contact phone",
+      "value": ""
+    },
+    {
+      "key": "contact_address",
+      "label": "Postal address",
+      "value": "Dr. Babasaheb Ambedkar Open University, 'Jyotirmay' Parisar, Sarkhej–Gandhinagar Highway, Chharodi, Ahmedabad, Gujarat 382481"
+    },
+    {
+      "key": "office_hours",
+      "label": "Office hours",
+      "value": "University working days, during office hours"
+    },
+    {
+      "key": "default_theme",
+      "label": "Default colour theme",
+      "value": "parchment"
+    },
+    {
+      "key": "enabled_themes",
+      "label": "Themes visitors may choose (tick)",
+      "value": [
+        "parchment",
+        "peacock",
+        "indigo",
+        "kesar",
+        "neem",
+        "lotus",
+        "monsoon",
+        "patola",
+        "ajrakh",
+        "rann",
+        "sabarmati",
+        "bandhani"
+      ]
+    },
+    {
+      "key": "lms_url",
+      "label": "LMS address (leave empty to hide the LMS button)",
+      "value": ""
+    },
+    {
+      "key": "enrolment_note",
+      "label": "Note under enrolment charts",
+      "value": "Figures as reported by the university for each academic year."
+    },
+    {
+      "key": "countdown_enabled",
+      "label": "Exam countdown: show on Home",
+      "value": false
+    },
+    {
+      "key": "countdown_title",
+      "label": "Exam countdown: text",
+      "value": "Term-End Examinations begin in"
+    },
+    {
+      "key": "countdown_date",
+      "label": "Exam countdown: date (YYYY-MM-DD)",
+      "value": ""
+    },
+    {
+      "key": "programme_quiz",
+      "label": "“Which programme suits me?” quiz (advanced: JSON)",
+      "value": {
+        "intro": "Three quick questions to suggest where to begin. It is only a suggestion — always check the eligibility on the programme's page.",
+        "questions": [
+          {
+            "q": "What have you completed so far?",
+            "options": [
+              {
+                "label": "Class 12 (Higher Secondary) or equivalent",
+                "scores": {
+                  "ba": 3,
+                  "certificate": 1
+                }
+              },
+              {
+                "label": "A bachelor's degree",
+                "scores": {
+                  "ma": 3,
+                  "diploma": 2,
+                  "certificate": 1
+                }
+              },
+              {
+                "label": "A master's degree",
+                "scores": {
+                  "phd": 3,
+                  "diploma": 1,
+                  "certificate": 1
+                }
+              }
+            ]
+          },
+          {
+            "q": "What would you like next?",
+            "options": [
+              {
+                "label": "A full degree",
+                "scores": {
+                  "ba": 2,
+                  "ma": 2
+                }
+              },
+              {
+                "label": "A short, focused course",
+                "scores": {
+                  "certificate": 3,
+                  "diploma": 1
+                }
+              },
+              {
+                "label": "Deeper specialisation",
+                "scores": {
+                  "diploma": 2,
+                  "ma": 1
+                }
+              },
+              {
+                "label": "Research",
+                "scores": {
+                  "phd": 3
+                }
+              }
+            ]
+          },
+          {
+            "q": "How much time can you give?",
+            "options": [
+              {
+                "label": "A few months",
+                "scores": {
+                  "certificate": 2
+                }
+              },
+              {
+                "label": "About a year",
+                "scores": {
+                  "diploma": 2
+                }
+              },
+              {
+                "label": "Two years or more",
+                "scores": {
+                  "ba": 1,
+                  "ma": 1,
+                  "phd": 1
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "key": "inkwell_name",
+      "label": "Inkwell name",
+      "value": "Ask the Muse"
+    },
+    {
+      "key": "footer_note",
+      "label": "Footer note",
+      "value": "Department of English · School of Humanities and Social Sciences · Dr. Babasaheb Ambedkar Open University"
+    },
+    {
+      "key": "inkwell_greeting",
+      "label": "Inkwell greeting",
+      "value": "Hello, I am the Muse. Ask me about programmes, syllabi, assignments, study material — or about the books themselves."
+    },
+    {
+      "key": "inkwell_suggestions",
+      "label": "Inkwell suggested questions (one per line)",
+      "value": [
+        "What is the eligibility for MA English?",
+        "Where do I find my assignment booklet?",
+        "Summarise Book I of Paradise Lost",
+        "What is rasa theory?"
+      ]
+    },
+    {
+      "key": "inkwell_system_prompt",
+      "label": "Inkwell instructions (private)",
+      "is_public": false,
+      "value": "You are “the Muse” of Ask the Muse, the study companion of the Department of English at Dr. Babasaheb Ambedkar Open University (BAOU), Ahmedabad. Speak warmly and precisely, like a learned librarian. For any fact about BAOU — programmes, eligibility, fees, dates, assignments, examinations, results — use ONLY the CONTEXT provided. If the context does not contain the answer, say so plainly and direct the learner to the Helpdesk section or the university website; never invent dates, fees, codes or rules. For literary and academic questions you may use general scholarly knowledge, but keep it accurate and exam-useful. Keep answers under 220 words, use short paragraphs, and answer in the language the learner uses (English, Gujarati or Hindi)."
+    }
+  ],
+  "sections": [
+    {
+      "slug": "home",
+      "title": "Home",
+      "kicker": "Folio I",
+      "renderer": "home",
+      "intro": "",
+      "title_gu": "મુખપૃષ્ઠ",
+      "intro_gu": ""
+    },
+    {
+      "slug": "programmes",
+      "title": "Programmes",
+      "kicker": "Folio II",
+      "renderer": "programs",
+      "intro": "Choose a book from the shelf to open a programme, then turn its pages.",
+      "title_gu": "અભ્યાસક્રમો",
+      "intro_gu": "પુસ્તક પસંદ કરો અને તેનાં પાનાં ફેરવો."
+    },
+    {
+      "slug": "slm",
+      "title": "SLM & Study Material",
+      "kicker": "Folio III",
+      "renderer": "slm",
+      "intro": "Self-Learning Material, study material and assignments — find yours by programme, semester or course.",
+      "title_gu": "એસ.એલ.એમ. અને અભ્યાસ સામગ્રી",
+      "intro_gu": "તમારા અભ્યાસક્રમ, સત્ર કે કોર્સ મુજબ સ્વ-અધ્યયન સામગ્રી અને સ્વાધ્યાય શોધો."
+    },
+    {
+      "slug": "faculty",
+      "title": "Faculty",
+      "kicker": "Folio IV",
+      "renderer": "faculty",
+      "intro": "Teachers who are, first and always, fellow learners — in the service of every reader who joins us.",
+      "title_gu": "અધ્યાપકગણ",
+      "intro_gu": "શિક્ષક, પરંતુ સૌપ્રથમ અને સદાય સહ-અધ્યેતા — અમારી સાથે જોડાતા દરેક વાચકની સેવામાં."
+    },
+    {
+      "slug": "phd-research",
+      "title": "PhD & Research",
+      "kicker": "Folio V",
+      "renderer": "research",
+      "intro": "Our research guides and the department's booklets for readers at every stage.",
+      "title_gu": "પીએચ.ડી. અને સંશોધન",
+      "intro_gu": "અમારા સંશોધન માર્ગદર્શકો અને દરેક તબક્કાના વાચકો માટે વિભાગની પુસ્તિકાઓ."
+    },
+    {
+      "slug": "results",
+      "title": "Results",
+      "kicker": "Folio VI",
+      "renderer": "results",
+      "intro": "Results links and our top achievers, published with their consent.",
+      "title_gu": "પરિણામ",
+      "intro_gu": "પરિણામની લિંક અને અમારા શ્રેષ્ઠ વિદ્યાર્થીઓ — તેમની સંમતિથી પ્રકાશિત."
+    },
+    {
+      "slug": "helpdesk",
+      "title": "Helpdesk",
+      "kicker": "Folio VII",
+      "renderer": "helpdesk",
+      "intro": "Raise a query with the department and track its status with your ticket reference.",
+      "title_gu": "સહાય કેન્દ્ર",
+      "intro_gu": "વિભાગને તમારો પ્રશ્ન મોકલો અને ટિકિટ નંબરથી તેની સ્થિતિ જાણો."
+    },
+    {
+      "slug": "events-gallery",
+      "title": "Events & Gallery",
+      "kicker": "Folio VIII",
+      "renderer": "gallery",
+      "intro": "Seminars, workshops, orientation programmes and literary events of the department.",
+      "published": false,
+      "title_gu": "કાર્યક્રમો અને ચિત્રસંગ્રહ",
+      "intro_gu": "વિભાગના પરિસંવાદો, કાર્યશાળાઓ, ઓરિએન્ટેશન કાર્યક્રમો અને સાહિત્યિક કાર્યક્રમો."
+    },
+    {
+      "slug": "alumni",
+      "title": "Alumni",
+      "kicker": "Folio IX",
+      "renderer": "alumni",
+      "intro": "Former learners of the department share where their study of English has taken them.",
+      "published": false,
+      "title_gu": "પૂર્વ વિદ્યાર્થીઓ",
+      "intro_gu": "વિભાગના પૂર્વ વિદ્યાર્થીઓ જણાવે છે કે અંગ્રેજીના અભ્યાસે તેમને ક્યાં સુધી પહોંચાડ્યા."
+    }
+  ],
+  "messages": [
+    {
+      "heading": "From the Vice Chancellor's Desk",
+      "author_name": "Prof. (Dr.) Ami Upadhyay",
+      "designation": "Vice Chancellor, Dr. Babasaheb Ambedkar Open University",
+      "body": "This space is reserved for the Vice Chancellor's message to the learners of the Department of English.\n\nThe approved text, photograph and signature line can be added at any time from the admin console, under Leadership Messages — no code is needed.",
+      "signature": "Prof. (Dr.) Ami Upadhyay"
+    }
+  ],
+  "daily_items": [
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Allegory",
+      "meaning": "A story in which characters and events stand for ideas, so the whole tale carries a second, deeper meaning.",
+      "gujarati": "રૂપકકથા",
+      "hindi": "रूपक कथा",
+      "example": "Bunyan's The Pilgrim's Progress is an allegory of the spiritual journey.",
+      "status": "approved",
+      "sort_order": 10
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Alliteration",
+      "meaning": "The repetition of the same opening consonant sound in nearby words.",
+      "gujarati": "અનુપ્રાસ",
+      "hindi": "अनुप्रास",
+      "example": "\"Full fathom five thy father lies\" repeats the f sound.",
+      "status": "approved",
+      "sort_order": 20
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Ambiguity",
+      "meaning": "The quality of having more than one possible meaning; writers often use it deliberately.",
+      "gujarati": "દ્વિઅર્થતા, અસ્પષ્ટતા",
+      "hindi": "अस्पष्टता, द्वि-अर्थकता",
+      "example": "The ending of the poem keeps a gentle ambiguity.",
+      "status": "approved",
+      "sort_order": 30
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Antagonist",
+      "meaning": "The character or force that opposes the main character.",
+      "gujarati": "પ્રતિનાયક",
+      "hindi": "प्रतिनायक",
+      "example": "In Othello, Iago is the antagonist.",
+      "status": "approved",
+      "sort_order": 40
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Archetype",
+      "meaning": "A pattern of character, image or story that recurs across many cultures and ages.",
+      "gujarati": "આદિરૂપ",
+      "hindi": "आदिरूप",
+      "example": "The wise old guide is a familiar archetype.",
+      "status": "approved",
+      "sort_order": 50
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Ballad",
+      "meaning": "A short narrative poem, often sung, told in simple stanzas.",
+      "gujarati": "કથાગીત",
+      "hindi": "गाथा-गीत",
+      "example": "Many ballads were passed down orally before being written.",
+      "status": "approved",
+      "sort_order": 60
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Catharsis",
+      "meaning": "The release of emotion that an audience feels through tragedy, as described by Aristotle.",
+      "gujarati": "ભાવવિરેચન",
+      "hindi": "विरेचन",
+      "example": "Aristotle linked catharsis with pity and fear.",
+      "status": "approved",
+      "sort_order": 70
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Climax",
+      "meaning": "The point of greatest tension or turning point in a story.",
+      "gujarati": "ચરમસીમા",
+      "hindi": "चरमोत्कर्ष",
+      "example": "The climax comes when the secret is finally revealed.",
+      "status": "approved",
+      "sort_order": 80
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Elegy",
+      "meaning": "A poem of mourning or serious reflection, usually on a death.",
+      "gujarati": "શોકગીત",
+      "hindi": "शोकगीत",
+      "example": "Gray's Elegy Written in a Country Churchyard is widely studied.",
+      "status": "approved",
+      "sort_order": 90
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Epic",
+      "meaning": "A long narrative poem about heroic deeds and events of great importance.",
+      "gujarati": "મહાકાવ્ય",
+      "hindi": "महाकाव्य",
+      "example": "Paradise Lost is an epic in twelve books.",
+      "status": "approved",
+      "sort_order": 100
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Hyperbole",
+      "meaning": "Deliberate exaggeration used for emphasis or effect.",
+      "gujarati": "અતિશયોક્તિ",
+      "hindi": "अतिशयोक्ति",
+      "example": "\"I have told you a thousand times\" is hyperbole.",
+      "status": "approved",
+      "sort_order": 110
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Irony",
+      "meaning": "A contrast between what is said and what is meant, or between what is expected and what happens.",
+      "gujarati": "વક્રોક્તિ",
+      "hindi": "व्यंग्योक्ति, वक्रोक्ति",
+      "example": "Jane Austen's opening sentence in Pride and Prejudice is famous for its irony.",
+      "status": "approved",
+      "sort_order": 120
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Lyric",
+      "meaning": "A short poem expressing personal feeling, often musical in quality.",
+      "gujarati": "ઊર્મિકાવ્ય",
+      "hindi": "गीतिकाव्य",
+      "example": "Many of Tagore's songs are lyrics of devotion and nature.",
+      "status": "approved",
+      "sort_order": 130
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Metaphor",
+      "meaning": "A figure of speech that describes one thing as if it were another.",
+      "gujarati": "રૂપક",
+      "hindi": "रूपक",
+      "example": "\"All the world's a stage\" is a metaphor.",
+      "status": "approved",
+      "sort_order": 140
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Metre",
+      "meaning": "The regular pattern of stressed and unstressed syllables in a line of verse.",
+      "gujarati": "છંદ",
+      "hindi": "छंद",
+      "example": "Shakespeare's sonnets are mostly written in iambic pentameter.",
+      "status": "approved",
+      "sort_order": 150
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Narrator",
+      "meaning": "The voice that tells the story.",
+      "gujarati": "કથક",
+      "hindi": "कथावाचक",
+      "example": "In Kanthapura, an old village woman is the narrator.",
+      "status": "approved",
+      "sort_order": 160
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Paradox",
+      "meaning": "A statement that seems self-contradictory but reveals a deeper truth.",
+      "gujarati": "વિરોધાભાસ",
+      "hindi": "विरोधाभास",
+      "example": "\"The child is father of the man\" is a paradox.",
+      "status": "approved",
+      "sort_order": 170
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Personification",
+      "meaning": "Giving human qualities to objects, animals or ideas.",
+      "gujarati": "સજીવારોપણ",
+      "hindi": "मानवीकरण",
+      "example": "\"The wind whispered through the trees\" uses personification.",
+      "status": "approved",
+      "sort_order": 180
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Protagonist",
+      "meaning": "The main character of a story, play or poem.",
+      "gujarati": "નાયક",
+      "hindi": "नायक",
+      "example": "Hamlet is the protagonist of Shakespeare's play.",
+      "status": "approved",
+      "sort_order": 190
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Rhyme",
+      "meaning": "The repetition of similar sounds at the ends of words, especially at line endings.",
+      "gujarati": "પ્રાસ",
+      "hindi": "तुक",
+      "example": "Rhyme gives a poem music and helps memory.",
+      "status": "approved",
+      "sort_order": 200
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Satire",
+      "meaning": "Writing that uses humour, irony or exaggeration to criticise folly.",
+      "gujarati": "કટાક્ષ, વ્યંગ",
+      "hindi": "व्यंग्य",
+      "example": "Swift's Gulliver's Travels is a classic satire.",
+      "status": "approved",
+      "sort_order": 210
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Simile",
+      "meaning": "A comparison using \"like\" or \"as\".",
+      "gujarati": "ઉપમા",
+      "hindi": "उपमा",
+      "example": "\"My love is like a red, red rose\" is a simile.",
+      "status": "approved",
+      "sort_order": 220
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Soliloquy",
+      "meaning": "A speech in which a character, alone on stage, speaks thoughts aloud.",
+      "gujarati": "સ્વગતોક્તિ",
+      "hindi": "स्वगत कथन",
+      "example": "\"To be, or not to be\" is Hamlet's most famous soliloquy.",
+      "status": "approved",
+      "sort_order": 230
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Sonnet",
+      "meaning": "A fourteen-line poem with a set rhyme scheme.",
+      "gujarati": "સૉનેટ",
+      "hindi": "सॉनेट (चतुर्दशपदी)",
+      "example": "The Petrarchan and Shakespearean are the two main sonnet forms.",
+      "status": "approved",
+      "sort_order": 240
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Stanza",
+      "meaning": "A group of lines forming a unit in a poem.",
+      "gujarati": "કડી",
+      "hindi": "छंद-बंध, बंद",
+      "example": "Each stanza of a ballad often tells one part of the story.",
+      "status": "approved",
+      "sort_order": 250
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Symbol",
+      "meaning": "An object, character or image that stands for something beyond itself.",
+      "gujarati": "પ્રતીક",
+      "hindi": "प्रतीक",
+      "example": "The albatross in Coleridge's poem is a powerful symbol.",
+      "status": "approved",
+      "sort_order": 260
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Theme",
+      "meaning": "The central idea or insight that a work explores.",
+      "gujarati": "વિષયવસ્તુ",
+      "hindi": "विषय-वस्तु",
+      "example": "Identity is a major theme in Indian English fiction.",
+      "status": "approved",
+      "sort_order": 270
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Tragedy",
+      "meaning": "A drama in which the protagonist meets suffering or downfall, arousing pity and fear.",
+      "gujarati": "કરુણાંતિકા",
+      "hindi": "त्रासदी",
+      "example": "King Lear is one of Shakespeare's great tragedies.",
+      "status": "approved",
+      "sort_order": 280
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Comedy",
+      "meaning": "A drama, often light in tone, that ends happily.",
+      "gujarati": "સુખાંતિકા",
+      "hindi": "सुखांत नाटक",
+      "example": "Twelfth Night is a romantic comedy.",
+      "status": "approved",
+      "sort_order": 290
+    },
+    {
+      "kind": "word",
+      "is_reserve": true,
+      "title": "Imagery",
+      "meaning": "Language that appeals to the senses and creates pictures in the reader's mind.",
+      "gujarati": "કલ્પન, બિંબવિધાન",
+      "hindi": "बिंब-विधान",
+      "example": "Keats's odes are rich in sensuous imagery.",
+      "status": "approved",
+      "sort_order": 300
+    },
+    {
+      "kind": "almanac",
+      "month_day": "01-14",
+      "title": "Birth anniversary of Mahasweta Devi (1926)",
+      "meaning": "Bengali writer whose fiction and plays gave voice to tribal and rural lives; many of her works are read in English translation.",
+      "status": "approved",
+      "sort_order": 10,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "01-25",
+      "title": "Birth anniversary of Virginia Woolf (1882)",
+      "meaning": "English novelist and essayist, author of Mrs Dalloway and A Room of One's Own.",
+      "status": "approved",
+      "sort_order": 20,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "01-28",
+      "title": "Pride and Prejudice was first published (1813)",
+      "meaning": "Jane Austen's novel of manners has never been out of print.",
+      "status": "approved",
+      "sort_order": 30,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "02-07",
+      "title": "Birth anniversary of Charles Dickens (1812)",
+      "meaning": "Author of Great Expectations, Oliver Twist and A Tale of Two Cities.",
+      "status": "approved",
+      "sort_order": 40,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "02-13",
+      "title": "Birth anniversary of Sarojini Naidu (1879)",
+      "meaning": "Poet of The Golden Threshold, celebrated as the Nightingale of India.",
+      "status": "approved",
+      "sort_order": 50,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "02-21",
+      "title": "International Mother Language Day",
+      "meaning": "Observed by UNESCO to celebrate linguistic and cultural diversity — a good day to read a poem in your mother tongue.",
+      "status": "approved",
+      "sort_order": 60,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "03-04",
+      "title": "Birth anniversary of Toru Dutt (1856)",
+      "meaning": "One of the earliest Indian poets in English, author of Ancient Ballads and Legends of Hindustan.",
+      "status": "approved",
+      "sort_order": 70,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "03-16",
+      "title": "Birth anniversary of A. K. Ramanujan (1929)",
+      "meaning": "Poet, translator and scholar of Indian literatures.",
+      "status": "approved",
+      "sort_order": 80,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "03-21",
+      "title": "World Poetry Day",
+      "meaning": "Declared by UNESCO to celebrate poetry and the poets of every language.",
+      "status": "approved",
+      "sort_order": 90,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "03-31",
+      "title": "Birth anniversary of Kamala Das (1934)",
+      "meaning": "Poet and writer in English and Malayalam, known for her confessional voice.",
+      "status": "approved",
+      "sort_order": 100,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "04-07",
+      "title": "Birth anniversary of William Wordsworth (1770)",
+      "meaning": "Romantic poet and co-author of Lyrical Ballads.",
+      "status": "approved",
+      "sort_order": 110,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "04-23",
+      "title": "World Book and Copyright Day",
+      "meaning": "Observed by UNESCO on a date also associated with Shakespeare.",
+      "status": "approved",
+      "sort_order": 120,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "05-07",
+      "title": "Birth anniversary of Rabindranath Tagore (1861)",
+      "meaning": "Poet, novelist and educator; the first Asian Nobel laureate in Literature (1913).",
+      "status": "approved",
+      "sort_order": 130,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "05-19",
+      "title": "Birth anniversary of Ruskin Bond (1934)",
+      "meaning": "Much-loved writer of stories set in the hills of India.",
+      "status": "approved",
+      "sort_order": 140,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "06-25",
+      "title": "Birth anniversary of George Orwell (1903)",
+      "meaning": "Author of Animal Farm and Nineteen Eighty-Four, born in Motihari, Bihar.",
+      "status": "approved",
+      "sort_order": 150,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "07-31",
+      "title": "Birth anniversary of Premchand (1880)",
+      "meaning": "Master of the Hindi and Urdu short story and novel, author of Godaan.",
+      "status": "approved",
+      "sort_order": 160,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "08-24",
+      "title": "Birth anniversary of Narmad (1833)",
+      "meaning": "Pioneer of modern Gujarati literature; the day is celebrated as World Gujarati Language Day.",
+      "status": "approved",
+      "sort_order": 170,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "08-28",
+      "title": "Birth anniversary of Jhaverchand Meghani (1896)",
+      "meaning": "Gujarati poet, writer and collector of Saurashtra's folk literature.",
+      "status": "approved",
+      "sort_order": 180,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "08-31",
+      "title": "Birth anniversary of Amrita Pritam (1919)",
+      "meaning": "Celebrated Punjabi poet and novelist.",
+      "status": "approved",
+      "sort_order": 190,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "09-08",
+      "title": "International Literacy Day",
+      "meaning": "Observed by UNESCO to highlight the importance of reading and learning for all.",
+      "status": "approved",
+      "sort_order": 200,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "09-14",
+      "title": "Hindi Diwas",
+      "meaning": "Marks the adoption of Hindi in the Devanagari script as an official language of the Union in 1949.",
+      "status": "approved",
+      "sort_order": 210,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "09-26",
+      "title": "Birth anniversary of T. S. Eliot (1888)",
+      "meaning": "Poet of The Waste Land and Four Quartets, Nobel laureate in 1948.",
+      "status": "approved",
+      "sort_order": 220,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "10-10",
+      "title": "Birth anniversary of R. K. Narayan (1906)",
+      "meaning": "Creator of the fictional town of Malgudi.",
+      "status": "approved",
+      "sort_order": 230,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "10-16",
+      "title": "Birth anniversary of Oscar Wilde (1854)",
+      "meaning": "Playwright of The Importance of Being Earnest.",
+      "status": "approved",
+      "sort_order": 240,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "10-22",
+      "title": "Birth anniversary of Jayanta Mahapatra (1928)",
+      "meaning": "Poet whose work is rooted in the landscape of Odisha.",
+      "status": "approved",
+      "sort_order": 250,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "10-27",
+      "title": "Birth anniversary of Dylan Thomas (1914)",
+      "meaning": "Welsh poet of Fern Hill and Do Not Go Gentle into That Good Night.",
+      "status": "approved",
+      "sort_order": 260,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "10-31",
+      "title": "Birth anniversary of John Keats (1795)",
+      "meaning": "Romantic poet of the great odes.",
+      "status": "approved",
+      "sort_order": 270,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "11-08",
+      "title": "Birth anniversary of Raja Rao (1908)",
+      "meaning": "Author of Kanthapura and The Serpent and the Rope.",
+      "status": "approved",
+      "sort_order": 280,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "11-13",
+      "title": "Tagore's Nobel Prize was announced (1913)",
+      "meaning": "Rabindranath Tagore was awarded the Nobel Prize in Literature for Gitanjali.",
+      "status": "approved",
+      "sort_order": 290,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "11-16",
+      "title": "Birth anniversary of Chinua Achebe (1930)",
+      "meaning": "Nigerian novelist, author of Things Fall Apart.",
+      "status": "approved",
+      "sort_order": 300,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "11-30",
+      "title": "Birth anniversary of Mark Twain (1835)",
+      "meaning": "American writer of The Adventures of Huckleberry Finn.",
+      "status": "approved",
+      "sort_order": 310,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "12-09",
+      "title": "Birth anniversary of John Milton (1608)",
+      "meaning": "Poet of Paradise Lost.",
+      "status": "approved",
+      "sort_order": 320,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "12-10",
+      "title": "Birth anniversary of Emily Dickinson (1830)",
+      "meaning": "American poet of short, striking lyrics.",
+      "status": "approved",
+      "sort_order": 330,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "12-12",
+      "title": "Birth anniversary of Mulk Raj Anand (1905)",
+      "meaning": "Pioneer of the Indian English novel, author of Untouchable and Coolie.",
+      "status": "approved",
+      "sort_order": 340,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "month_day": "12-16",
+      "title": "Birth anniversary of Jane Austen (1775)",
+      "meaning": "Novelist of Pride and Prejudice and Emma.",
+      "status": "approved",
+      "sort_order": 350,
+      "is_reserve": false
+    },
+    {
+      "kind": "almanac",
+      "is_reserve": true,
+      "title": "A thought from Francis Bacon",
+      "meaning": "\"Reading maketh a full man; conference a ready man; and writing an exact man.\" — Of Studies (1625)",
+      "status": "approved",
+      "sort_order": 10
+    },
+    {
+      "kind": "almanac",
+      "is_reserve": true,
+      "title": "A thought from the Taittiriya Upanishad",
+      "meaning": "Svadhyayan ma pramadah — never neglect your own study.",
+      "status": "approved",
+      "sort_order": 20
+    },
+    {
+      "kind": "almanac",
+      "is_reserve": true,
+      "title": "A habit worth keeping",
+      "meaning": "Read one poem aloud today. Poetry was made for the ear before it was made for the page.",
+      "status": "approved",
+      "sort_order": 30
+    },
+    {
+      "kind": "almanac",
+      "is_reserve": true,
+      "title": "A reading tip",
+      "meaning": "Before you answer a question on a text, write one sentence that says what the text is about. Then build from it.",
+      "status": "approved",
+      "sort_order": 40
+    },
+    {
+      "kind": "almanac",
+      "is_reserve": true,
+      "title": "From the department",
+      "meaning": "Every great writer began as a reader. Keep a small notebook of lines that move you.",
+      "status": "approved",
+      "sort_order": 50
+    },
+    {
+      "kind": "almanac",
+      "is_reserve": true,
+      "title": "A reading tip",
+      "meaning": "When a word stops you, guess its meaning from the sentence first, then check the dictionary.",
+      "status": "approved",
+      "sort_order": 60
+    }
+  ],
+  "announcements": [
+    {
+      "title": "Admissions for the current academic session — see the university website for schedules and the online application.",
+      "link_url": "https://baou.edu.in",
+      "priority": 10
+    },
+    {
+      "title": "Assignment booklets and syllabi are available in Programmes › Library as they are published.",
+      "priority": 5
+    },
+    {
+      "title": "New: Ask the Muse (the inkwell, bottom right) about programmes, study material and the texts you are reading.",
+      "priority": 1
+    }
+  ],
+  "programs": [
+    {
+      "code": "BA-ENG",
+      "title": "Bachelor of Arts — English (Major)",
+      "level": "Undergraduate · NEP 2020",
+      "duration": "3 years (degree) · 4 years (Honours)",
+      "medium": "English",
+      "eligibility": "Higher Secondary (10+2) or equivalent, as per university norms.",
+      "status": "Admissions as per university schedule",
+      "description": "A four-year undergraduate programme under NEP 2020 with multiple entry and exit, moving from foundations of language and literary forms to British, American, Indian and world literatures, criticism and theory, with skill and value-added courses along the way.",
+      "highlights": [
+        "Multiple entry and exit under NEP 2020",
+        "Indian Writing in English and translation studies",
+        "Honours year with research component"
+      ],
+      "level_group": "ba",
+      "future_scope": [
+        "Postgraduate study in English and allied disciplines (M.A., B.Ed.)",
+        "Competitive examinations that test language and comprehension",
+        "Entry-level roles in content writing, editing and communication",
+        "Translation and language-support work",
+        "A strong base in reading, writing and critical thinking for any career"
+      ]
+    },
+    {
+      "code": "MA-ENG",
+      "title": "Master of Arts — English",
+      "level": "Postgraduate · NEP 2020",
+      "duration": "2 years (4 semesters); 1-year format for 4-year Honours graduates",
+      "medium": "English",
+      "eligibility": "Graduation in any discipline from a recognised university, as per university norms.",
+      "status": "Admissions as per university schedule",
+      "description": "A rigorous postgraduate programme spanning the history of English literature from Chaucer to the contemporary, literary criticism and theory, Indian and New Literatures in English, and research methodology — supported by SLM, SSLM video lectures and an answer-writing companion.",
+      "highlights": [
+        "Prepares for UGC NET / GSET",
+        "New Literatures in English and Indian Knowledge Systems",
+        "SSLM video lectures, unit by unit"
+      ],
+      "level_group": "ma",
+      "future_scope": [
+        "Eligibility to appear for UGC NET / GSET for Assistant Professorship and research fellowships, as per the respective notifications",
+        "Doctoral research (PhD) in English and related fields",
+        "Teaching English at school and college levels, subject to the required qualifications",
+        "Translation, editing, publishing and academic writing",
+        "Content, media and communication roles that value advanced language skills"
+      ]
+    },
+    {
+      "code": "PGDCSLT",
+      "title": "Post Graduate Diploma in Cultural Studies and Literary Theories",
+      "level": "Postgraduate Diploma",
+      "duration": "1 year",
+      "medium": "English",
+      "eligibility": "Graduation in any discipline, as per university norms.",
+      "status": "Proposed",
+      "description": "A focused diploma on the major schools of literary theory and the methods of cultural studies.",
+      "highlights": [],
+      "published": false,
+      "level_group": "diploma",
+      "future_scope": [
+        "Advanced study in literary and cultural theory",
+        "Research preparation for M.Phil./PhD-level work",
+        "Analytical and writing skills useful in media, publishing and cultural organisations"
+      ]
+    },
+    {
+      "code": "DIP-ENG",
+      "title": "Diploma Programme in English (details to be added)",
+      "level_group": "diploma",
+      "level": "Diploma",
+      "duration": "",
+      "medium": "English",
+      "eligibility": "",
+      "status": "Details coming soon",
+      "description": "The department will publish details of this diploma here.",
+      "highlights": [],
+      "future_scope": []
+    },
+    {
+      "code": "CERT-ENG",
+      "title": "Certificate Programme in English (details to be added)",
+      "level_group": "certificate",
+      "level": "Certificate",
+      "duration": "",
+      "medium": "English",
+      "eligibility": "",
+      "status": "Details coming soon",
+      "description": "The department will publish details of this certificate programme here.",
+      "highlights": [],
+      "future_scope": []
+    },
+    {
+      "code": "PHD-ENG",
+      "title": "Doctor of Philosophy (PhD) in English",
+      "level_group": "phd",
+      "level": "Doctoral",
+      "duration": "As per university PhD regulations",
+      "medium": "English",
+      "eligibility": "As per UGC regulations and the university's PhD admission notification.",
+      "status": "As per university notification",
+      "description": "Doctoral research in English literature, language and allied areas under the guidance of the department's research supervisors.",
+      "highlights": [],
+      "future_scope": [
+        "Teaching and research positions in higher education, subject to eligibility norms",
+        "Post-doctoral research and fellowships",
+        "Publishing scholarly work and contributing to academic bodies"
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "name": "Prof. (Dr.) Ami Upadhyay",
+      "designation": "Vice Chancellor & Head of Department",
+      "specialisation": "",
+      "bio": "",
+      "is_phd_guide": false,
+      "phd_completed": 0
+    },
+    {
+      "name": "Dr. Ankit Parmar",
+      "designation": "Assistant Professor",
+      "specialisation": "North East Indian English Fiction",
+      "bio": "PhD in English, Gujarat University. Works on curriculum design, Self-Learning Material and the Smart SLM (SSLM) initiative.",
+      "is_phd_guide": false,
+      "phd_completed": 0
+    },
+    {
+      "name": "Dr. Yesha Bhatt",
+      "designation": "Assistant Professor",
+      "specialisation": "",
+      "bio": "",
+      "is_phd_guide": false,
+      "phd_completed": 0
+    },
+    {
+      "name": "Dr. Bhavana Trivedi",
+      "designation": "Assistant Professor",
+      "specialisation": "",
+      "bio": "",
+      "is_phd_guide": false,
+      "phd_completed": 0
+    },
+    {
+      "name": "Dr. Axansh Parmar",
+      "designation": "Assistant Professor",
+      "specialisation": "",
+      "bio": "",
+      "is_phd_guide": false,
+      "phd_completed": 0
+    }
+  ],
+  "pantheon": [
+    {
+      "name": "Bharata Muni",
+      "tradition": "Sanskrit · Nāṭyaśāstra",
+      "era": "c. 2nd century BCE – 2nd century CE",
+      "verse": "vibhāvānubhāva-vyabhicāri-saṃyogād rasa-niṣpattiḥ",
+      "verse_source": "Nāṭyaśāstra, Chapter 6 — the Rasa-sūtra",
+      "translation": "Rasa is born from the union of the determinants, the consequents and the transitory emotional states.",
+      "iks_context": "The Nāṭyaśāstra is India's foundational treatise on drama, music and dance. Its theory of rasa — aesthetic relish — describes how a spectator savours emotion through art rather than suffering it. Later thinkers such as Abhinavagupta refined it into a philosophy of aesthetic experience, and it is often read alongside Aristotle's catharsis in comparative poetics."
+    },
+    {
+      "name": "Kālidāsa",
+      "tradition": "Sanskrit · Kāvya",
+      "era": "c. 4th–5th century CE",
+      "verse": "kaścit kāntāvirahaguruṇā svādhikārāt pramattaḥ",
+      "verse_source": "Meghadūta, verse 1 (opening line)",
+      "translation": "A certain yakṣa, negligent of his duty and weighed down by separation from his beloved…",
+      "iks_context": "Kālidāsa's Meghadūta founded the dūta-kāvya (messenger poem) tradition: an exiled yakṣa sends a cloud across India to his wife. His Abhijñānaśākuntalam, translated by William Jones in 1789, became one of the first Indian works to move European readers, linking Sanskrit poetics with world literature."
+    },
+    {
+      "name": "Narsinh Mehta",
+      "tradition": "Gujarati · Bhakti",
+      "era": "15th century",
+      "verse": "વૈષ્ણવ જન તો તેને કહીએ, જે પીડ પરાઈ જાણે રે",
+      "verse_source": "Vaiṣṇava Jana To — bhajan",
+      "translation": "Call that person a true Vaishnava who knows the pain of others.",
+      "iks_context": "Revered as the ādi-kavi (first poet) of Gujarati, Narsinh Mehta of Junagadh wrote bhakti poetry that placed compassion above ritual and caste. Vaiṣṇava Jana To became Mahatma Gandhi's beloved prayer — a vernacular text that entered the moral vocabulary of modern India."
+    },
+    {
+      "name": "William Shakespeare",
+      "tradition": "English · Renaissance",
+      "era": "1564–1616",
+      "verse": "Shall I compare thee to a summer's day?\nThou art more lovely and more temperate:",
+      "verse_source": "Sonnet 18",
+      "translation": "",
+      "iks_context": "Shakespeare arrived in India through colonial education but was quickly made Indian: Parsi theatre staged him in Gujarati, Urdu and Hindi from the nineteenth century, and Indian cinema keeps adapting him. Reading him beside Kālidāsa invites comparative questions of genre, rasa and the role of the spectator."
+    },
+    {
+      "name": "Jane Austen",
+      "tradition": "English · Novel",
+      "era": "1775–1817",
+      "verse": "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
+      "verse_source": "Pride and Prejudice (1813), opening sentence",
+      "translation": "",
+      "iks_context": "Austen's irony turns on manners, marriage and money. Indian readers recognise her world readily, as the adaptations Bride and Prejudice (2004) and Aisha (2010) show. Her sense of decorum invites comparison with aucitya — propriety — which the Sanskrit critic Kṣemendra made the life of poetry."
+    },
+    {
+      "name": "Toru Dutt",
+      "tradition": "Indian English · Poetry",
+      "era": "1856–1877",
+      "verse": "Like a huge Python, winding round and round\nThe rugged trunk, indented deep with scars,",
+      "verse_source": "Our Casuarina Tree",
+      "translation": "",
+      "iks_context": "One of the earliest Indian poets in English, Toru Dutt retold stories of Sītā, Sāvitrī and Prahlāda from the epics and Purāṇas in Ancient Ballads and Legends of Hindustan (1882), bringing Indian narrative traditions into English verse before she died at twenty-one."
+    },
+    {
+      "name": "Rabindranath Tagore",
+      "tradition": "Bengali · English",
+      "era": "1861–1941",
+      "verse": "Where the mind is without fear and the head is held high;\nWhere knowledge is free;",
+      "verse_source": "Gitanjali (1912), poem 35",
+      "translation": "",
+      "iks_context": "Tagore, Nobel laureate in 1913, drew on the Upaniṣads, the Bāul singers and Vaiṣṇava poetry. At Śāntiniketan he revived the tapovana ideal of learning in open nature — a fitting forebear for open learning, where knowledge is meant to be free."
+    },
+    {
+      "name": "Raja Rao",
+      "tradition": "Indian English · Novel",
+      "era": "1908–2006",
+      "verse": "",
+      "verse_source": "Kanthapura (1938)",
+      "translation": "",
+      "iks_context": "Kanthapura tells of the Gandhian movement in a South Indian village in the manner of a sthala-purāṇa, the legendary history of a place, narrated by a village grandmother as in harikathā. In his foreword Rao argued that Indians must write in English with their own rhythm and idiom — a manifesto for Indian English fiction."
+    }
+  ],
+  "result_notices": [
+    {
+      "title": "Term-End Examination results are published on the university website",
+      "exam_session": "All sessions",
+      "link_url": "https://baou.edu.in"
+    }
+  ],
+  "knowledge_chunks": [
+    {
+      "title": "About the Department of English",
+      "course_code": "",
+      "content": "The Department of English is part of the School of Humanities and Social Sciences (SHSS) at Dr. Babasaheb Ambedkar Open University (BAOU), Ahmedabad, Gujarat. It offers English programmes through open and distance learning (ODL) with Self-Learning Material (SLM), video lectures and the Smart SLM (SSLM) initiative. Faculty: Prof. (Dr.) Ami Upadhyay (Vice Chancellor and Head), Dr. Ankit Parmar, Dr. Yesha Bhatt, Dr. Bhavana Trivedi and Dr. Axansh Parmar (Assistant Professors)."
+    },
+    {
+      "title": "Programmes and eligibility",
+      "course_code": "",
+      "content": "BA English (Major) under NEP 2020: 3-year degree or 4-year Honours; eligibility Higher Secondary (10+2) or equivalent as per university norms. MA English: 2 years (4 semesters), with a 1-year format for 4-year Honours graduates; eligibility graduation in any discipline from a recognised university, as per university norms. Admission schedules, fees and the online application are published on the university website (baou.edu.in); learners should always confirm current details there."
+    },
+    {
+      "title": "Assignments and study material",
+      "course_code": "",
+      "content": "Assignment booklets, syllabi and SSLM material are published in the Programmes section of this portal under Library, filtered by programme and category. Submission deadlines and instructions are given in each booklet and announced in the ticker and in Results & Notices. Learners with problems downloading or submitting assignments should raise a Helpdesk ticket with their enrolment number."
+    },
+    {
+      "title": "Helpdesk",
+      "course_code": "",
+      "content": "The Helpdesk section lets learners raise a query about admission, assignments, examinations, results, study material, fees or other matters. Each query receives a ticket reference beginning with ENG. Learners can check the status and the department's reply by entering the reference and the email address they used."
+    },
+    {
+      "title": "Paradise Lost Books I and II — overview",
+      "course_code": "MEG-102",
+      "content": "John Milton's Paradise Lost (1667; 12 books in 1674) is an epic in blank verse whose stated aim is to justify the ways of God to men. Book I opens with the invocation to the Heavenly Muse, then shows Satan and the fallen angels on the burning lake of Hell; Satan rouses Beelzebub and the legions, declares that the mind is its own place, and the angels build Pandemonium. Book II presents the great consultation: Moloch urges open war, Belial counsels ignoble ease, Mammon proposes building a rival empire in Hell, and Beelzebub (voicing Satan's plan) proposes corrupting God's new creation, Man. Satan volunteers for the journey, meets Sin and Death at Hell's gate, and crosses Chaos. Key debates for exams: Satan as heroic or self-deceiving (Blake, Shelley vs. C. S. Lewis), Milton's grand style, epic conventions, and the political resonance of the council scene."
+    },
+    {
+      "title": "New Literatures in English — introduction",
+      "course_code": "MEG-202",
+      "content": "New Literatures in English refers to writing in English from the former British colonies — Africa, the Caribbean, South Asia, Australia, New Zealand and Canada — that emerged mainly in the twentieth century. The term replaced 'Commonwealth literature' and overlaps with postcolonial literature. Key concerns include the politics of using the coloniser's language, the remaking of English with local idiom (Achebe, Raja Rao), hybridity and identity, the recovery of history and myth, and resistance to colonial representation."
+    },
+    {
+      "title": "Rasa theory",
+      "course_code": "",
+      "content": "Rasa theory comes from Bharata Muni's Nāṭyaśāstra. The rasa-sūtra states that rasa arises from the combination of vibhāva (determinants or causes), anubhāva (consequents, the outward expressions) and vyabhicāri bhāva (transitory states). Bharata lists eight rasas — śṛṅgāra (erotic/love), hāsya (comic), karuṇa (pathetic), raudra (furious), vīra (heroic), bhayānaka (terrible), bībhatsa (odious) and adbhuta (marvellous); later critics added śānta (peace). Abhinavagupta explained rasa as a universalised (sādhāraṇīkaraṇa) aesthetic relish experienced by the sahṛdaya, the sensitive spectator."
+    }
+  ],
+  "links": [
+    {
+      "label": "University website",
+      "url": "https://baou.edu.in",
+      "placement": "footer"
+    },
+    {
+      "label": "University website",
+      "url": "https://baou.edu.in",
+      "placement": "programme",
+      "kind": "apply"
+    }
+  ],
+  "enrolments": [
+    {
+      "demo_only": true,
+      "program_code": "BA-ENG",
+      "academic_year": "2025-26",
+      "semester": 1,
+      "male": 412,
+      "female": 598,
+      "transgender": 0
+    },
+    {
+      "demo_only": true,
+      "program_code": "BA-ENG",
+      "academic_year": "2025-26",
+      "semester": 2,
+      "male": 380,
+      "female": 571,
+      "transgender": 0
+    },
+    {
+      "demo_only": true,
+      "program_code": "BA-ENG",
+      "academic_year": "2025-26",
+      "semester": 3,
+      "male": 341,
+      "female": 520,
+      "transgender": 0
+    },
+    {
+      "demo_only": true,
+      "program_code": "BA-ENG",
+      "academic_year": "2025-26",
+      "semester": 4,
+      "male": 322,
+      "female": 497,
+      "transgender": 0
+    },
+    {
+      "demo_only": true,
+      "program_code": "BA-ENG",
+      "academic_year": "2025-26",
+      "semester": 5,
+      "male": 301,
+      "female": 468,
+      "transgender": 0
+    },
+    {
+      "demo_only": true,
+      "program_code": "BA-ENG",
+      "academic_year": "2025-26",
+      "semester": 6,
+      "male": 288,
+      "female": 452,
+      "transgender": 0
+    },
+    {
+      "demo_only": true,
+      "program_code": "MA-ENG",
+      "academic_year": "2025-26",
+      "semester": 1,
+      "male": 236,
+      "female": 415,
+      "transgender": 0
+    },
+    {
+      "demo_only": true,
+      "program_code": "MA-ENG",
+      "academic_year": "2025-26",
+      "semester": 2,
+      "male": 221,
+      "female": 398,
+      "transgender": 0
+    },
+    {
+      "demo_only": true,
+      "program_code": "MA-ENG",
+      "academic_year": "2025-26",
+      "semester": 3,
+      "male": 204,
+      "female": 377,
+      "transgender": 0
+    },
+    {
+      "demo_only": true,
+      "program_code": "MA-ENG",
+      "academic_year": "2025-26",
+      "semester": 4,
+      "male": 197,
+      "female": 362,
+      "transgender": 0
+    }
+  ],
+  "program_courses": [
+    {
+      "demo_only": true,
+      "program_code": "MA-ENG",
+      "semester": 1,
+      "course_code": "MEG-101",
+      "title": "Sample course title (replace in admin)"
+    },
+    {
+      "demo_only": true,
+      "program_code": "MA-ENG",
+      "semester": 1,
+      "course_code": "MEG-102",
+      "title": "Sample course title (replace in admin)"
+    },
+    {
+      "demo_only": true,
+      "program_code": "MA-ENG",
+      "semester": 2,
+      "course_code": "MEG-201",
+      "title": "Sample course title (replace in admin)"
+    },
+    {
+      "demo_only": true,
+      "program_code": "MA-ENG",
+      "semester": 2,
+      "course_code": "MEG-202",
+      "title": "Introduction to New Literatures in English (sample)"
+    }
+  ],
+  "toppers": [
+    {
+      "demo_only": true,
+      "program_code": "MA-ENG",
+      "academic_year": "2025-26",
+      "rank": 1,
+      "student_name": "Sample Learner 1",
+      "percentage": 84.5,
+      "consent": true
+    },
+    {
+      "demo_only": true,
+      "program_code": "MA-ENG",
+      "academic_year": "2025-26",
+      "rank": 2,
+      "student_name": "Sample Learner 2",
+      "percentage": 83.2,
+      "consent": true
+    },
+    {
+      "demo_only": true,
+      "program_code": "MA-ENG",
+      "academic_year": "2025-26",
+      "rank": 3,
+      "student_name": "Sample Learner 3",
+      "percentage": 81.9,
+      "consent": true
+    },
+    {
+      "demo_only": true,
+      "program_code": "MA-ENG",
+      "academic_year": "2025-26",
+      "rank": 4,
+      "student_name": "Sample Learner 4",
+      "percentage": 80.4,
+      "consent": true
+    },
+    {
+      "demo_only": true,
+      "program_code": "MA-ENG",
+      "academic_year": "2025-26",
+      "rank": 5,
+      "student_name": "Sample Learner 5",
+      "percentage": 79.8,
+      "consent": true
+    }
+  ],
+  "documents": [
+    {
+      "demo_only": true,
+      "title": "MEG-101 Block 1 (sample SLM)",
+      "category": "slm",
+      "program_code": "MA-ENG",
+      "semester": 1,
+      "course_code": "MEG-101",
+      "external_url": "https://drive.google.com/",
+      "academic_year": "2026-27"
+    },
+    {
+      "demo_only": true,
+      "title": "MEG-102 Block 5 (sample SLM)",
+      "category": "slm",
+      "program_code": "MA-ENG",
+      "semester": 1,
+      "course_code": "MEG-102",
+      "external_url": "https://drive.google.com/",
+      "academic_year": "2026-27"
+    },
+    {
+      "demo_only": true,
+      "title": "Answer-writing companion (sample)",
+      "category": "study-material",
+      "program_code": "MA-ENG",
+      "semester": null,
+      "course_code": null,
+      "external_url": "https://drive.google.com/",
+      "academic_year": "2026-27"
+    },
+    {
+      "demo_only": true,
+      "title": "Assignment booklet — MA Semester 1 (sample)",
+      "category": "assignment",
+      "program_code": "MA-ENG",
+      "semester": 1,
+      "course_code": null,
+      "external_url": "https://drive.google.com/",
+      "academic_year": "2026-27"
+    },
+    {
+      "demo_only": true,
+      "title": "Assignment booklet — BA Semester 1 (sample)",
+      "category": "assignment",
+      "program_code": "BA-ENG",
+      "semester": 1,
+      "course_code": null,
+      "external_url": "https://drive.google.com/",
+      "academic_year": "2026-27"
+    },
+    {
+      "demo_only": true,
+      "title": "How to Read Literature (sample booklet)",
+      "category": "booklet",
+      "program_code": null,
+      "semester": null,
+      "course_code": null,
+      "external_url": "https://drive.google.com/",
+      "academic_year": "2026-27"
+    },
+    {
+      "demo_only": true,
+      "title": "Before You Begin: B.A., M.A. and PhD (sample booklet)",
+      "category": "booklet",
+      "program_code": null,
+      "semester": null,
+      "course_code": null,
+      "external_url": "https://drive.google.com/",
+      "academic_year": "2026-27"
+    }
+  ],
+  "gallery_items": [
+    {
+      "album": "Sample album — Orientation programme",
+      "event_date": "2026-08-20",
+      "title": "Welcome session",
+      "caption": "Sample entry for practice mode. Replace with real photographs from the admin console.",
+      "image_path": "gallery/demo/sample-1.jpg",
+      "demo_only": true
+    },
+    {
+      "album": "Sample album — Orientation programme",
+      "event_date": "2026-08-20",
+      "title": "Study centre coordinators",
+      "caption": "Sample entry for practice mode.",
+      "image_path": "gallery/demo/sample-2.jpg",
+      "demo_only": true
+    },
+    {
+      "album": "Sample album — Orientation programme",
+      "event_date": "2026-08-20",
+      "title": "Library visit",
+      "image_path": "gallery/demo/sample-3.jpg",
+      "demo_only": true
+    },
+    {
+      "album": "Sample album — World Book Day",
+      "event_date": "2026-04-23",
+      "title": "Reading circle",
+      "caption": "Sample entry for practice mode.",
+      "image_path": "gallery/demo/sample-4.jpg",
+      "demo_only": true
+    }
+  ],
+  "alumni": [
+    {
+      "name": "Sample Alumnus 1",
+      "batch": "2019-21",
+      "program_code": "MA-ENG",
+      "present_role": "Teacher of English (sample)",
+      "message": "Sample message for practice mode. Replace it with a real note received with written consent.",
+      "consent": true,
+      "demo_only": true
+    },
+    {
+      "name": "Sample Alumnus 2",
+      "batch": "2016-19",
+      "program_code": "BA-ENG",
+      "present_role": "Content writer (sample)",
+      "message": "Sample message for practice mode.",
+      "consent": true,
+      "demo_only": true
+    }
+  ]
+}

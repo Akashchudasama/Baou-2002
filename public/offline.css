@@ -1,0 +1,6 @@
+body { margin: 0; min-height: 100vh; display: grid; place-items: center; background: #F4EEDD; color: #2A1A12; font-family: Georgia, 'Times New Roman', serif; }
+main { max-width: 420px; padding: 32px; text-align: center; background: #FAF7F0; border: 1px solid #C5A059; border-radius: 12px; margin: 16px; }
+img { margin: 0 auto 12px; display: block; }
+h1 { color: #3A0810; font-weight: normal; letter-spacing: 0.04em; }
+.small { font-size: 0.85rem; color: #6E5A48; }
+a { display: inline-block; margin-top: 8px; padding: 10px 22px; background: #3A0810; color: #FAF7F0; border-radius: 999px; text-decoration: none; font-family: system-ui, sans-serif; font-size: 0.9rem; }

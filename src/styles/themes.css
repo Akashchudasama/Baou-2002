@@ -1,0 +1,327 @@
+/* ==========================================================================
+   Colour themes. Every theme keeps the same design, typography and layout;
+   only the palette changes. All are light, warm-paper themes by design.
+   ========================================================================== */
+
+/* Parchment & Ink — Oxblood ink, antique brass */
+:root,
+:root[data-theme='parchment'] {
+  --parchment-rgb: 244 238 221;
+  --paper-rgb: 250 247 240;
+  --paper-hi: #fffdf8;
+  --paper-lo: #f3ecd9;
+  --accent-rgb: 58 8 16;
+  --accent-2: #5C1622;
+  --accent-hi: #5a1520;
+  --brass-rgb: 197 160 89;
+  --brass-deep-rgb: 142 106 42;
+  --brass-soft: #E8D6A6;
+  --ink: #2A1A12;
+  --ink-2: #4A372A;
+  --muted-rgb: 110 90 72;
+  --shadow-rgb: 42 20 10;
+  --light-rgb: 255 250 236;
+  --medal-hi: #fbf3dc;
+  --medal-lo: #e9dcb8;
+  --deckle-1: #efe6cf;
+  --deckle-2: #e2d6b6;
+  --ink-core: #B8913F;
+  --ink-glow: #F7E7B4;
+}
+
+/* Peacock & Saffron — Deep peacock teal, saffron gold */
+:root[data-theme='peacock'] {
+  --parchment-rgb: 236 240 232;
+  --paper-rgb: 248 250 245;
+  --paper-hi: #fcfdfa;
+  --paper-lo: #e6ece3;
+  --accent-rgb: 14 59 67;
+  --accent-2: #16525C;
+  --accent-hi: #1d5c66;
+  --brass-rgb: 208 140 43;
+  --brass-deep-rgb: 150 95 20;
+  --brass-soft: #F3D29A;
+  --ink: #12262A;
+  --ink-2: #2E4448;
+  --muted-rgb: 84 104 106;
+  --shadow-rgb: 10 30 34;
+  --light-rgb: 250 252 240;
+  --medal-hi: #f6f3e4;
+  --medal-lo: #e3dcc0;
+  --deckle-1: #e4eadf;
+  --deckle-2: #d3dccd;
+  --ink-core: #D08C2B;
+  --ink-glow: #FBE1A8;
+}
+
+/* Indigo Manuscript — Indigo dye, old gold */
+:root[data-theme='indigo'] {
+  --parchment-rgb: 236 238 244;
+  --paper-rgb: 248 249 252;
+  --paper-hi: #fdfdff;
+  --paper-lo: #e7e9f1;
+  --accent-rgb: 31 42 90;
+  --accent-2: #2c3a75;
+  --accent-hi: #34437f;
+  --brass-rgb: 184 154 78;
+  --brass-deep-rgb: 128 104 42;
+  --brass-soft: #E6D7A8;
+  --ink: #161B33;
+  --ink-2: #343a58;
+  --muted-rgb: 92 97 120;
+  --shadow-rgb: 16 20 40;
+  --light-rgb: 250 250 255;
+  --medal-hi: #f4f2e8;
+  --medal-lo: #dcd8c6;
+  --deckle-1: #e5e7ef;
+  --deckle-2: #d4d7e3;
+  --ink-core: #B89A4E;
+  --ink-glow: #F1E6BF;
+}
+
+/* Kesar & Sandalwood — Burnt saffron, sandalwood */
+:root[data-theme='kesar'] {
+  --parchment-rgb: 245 235 221;
+  --paper-rgb: 251 246 238;
+  --paper-hi: #fffbf5;
+  --paper-lo: #f1e4d1;
+  --accent-rgb: 122 46 14;
+  --accent-2: #93401c;
+  --accent-hi: #8f3a16;
+  --brass-rgb: 214 162 39;
+  --brass-deep-rgb: 150 108 18;
+  --brass-soft: #F2D58A;
+  --ink: #2b1a0f;
+  --ink-2: #51392a;
+  --muted-rgb: 120 92 70;
+  --shadow-rgb: 60 28 8;
+  --light-rgb: 255 248 232;
+  --medal-hi: #fbf0d8;
+  --medal-lo: #ecd6ad;
+  --deckle-1: #f0e2cc;
+  --deckle-2: #e1cfb2;
+  --ink-core: #D6A227;
+  --ink-glow: #FFE7A3;
+}
+
+/* Neem & Ivory — Neem-leaf green, pale brass */
+:root[data-theme='neem'] {
+  --parchment-rgb: 238 240 226;
+  --paper-rgb: 250 250 242;
+  --paper-hi: #fefef9;
+  --paper-lo: #e8ebd8;
+  --accent-rgb: 47 74 42;
+  --accent-2: #3d5e37;
+  --accent-hi: #446640;
+  --brass-rgb: 184 151 90;
+  --brass-deep-rgb: 124 98 48;
+  --brass-soft: #E6D6AE;
+  --ink: #1f2a1c;
+  --ink-2: #3f4b3a;
+  --muted-rgb: 96 104 86;
+  --shadow-rgb: 24 36 20;
+  --light-rgb: 252 252 240;
+  --medal-hi: #f6f4e2;
+  --medal-lo: #e0dcc0;
+  --deckle-1: #e8eada;
+  --deckle-2: #d8dcc6;
+  --ink-core: #B8975A;
+  --ink-glow: #F1E5BE;
+}
+
+/* Lotus & Bronze — Lotus plum, warm bronze */
+:root[data-theme='lotus'] {
+  --parchment-rgb: 244 233 234;
+  --paper-rgb: 252 247 247;
+  --paper-hi: #fffcfc;
+  --paper-lo: #f1e2e3;
+  --accent-rgb: 91 27 58;
+  --accent-2: #722649;
+  --accent-hi: #74294b;
+  --brass-rgb: 176 141 87;
+  --brass-deep-rgb: 124 94 50;
+  --brass-soft: #E8D4B4;
+  --ink: #2b1520;
+  --ink-2: #4d3340;
+  --muted-rgb: 116 90 100;
+  --shadow-rgb: 50 16 30;
+  --light-rgb: 255 248 246;
+  --medal-hi: #fbf1ee;
+  --medal-lo: #ead8d3;
+  --deckle-1: #f1e4e4;
+  --deckle-2: #e3d2d3;
+  --ink-core: #B08D57;
+  --ink-glow: #F5E2C2;
+}
+
+/* Monsoon Slate — Rain-cloud slate, soft brass */
+:root[data-theme='monsoon'] {
+  --parchment-rgb: 233 236 238;
+  --paper-rgb: 248 249 250;
+  --paper-hi: #fdfdfe;
+  --paper-lo: #e3e7ea;
+  --accent-rgb: 46 58 70;
+  --accent-2: #3b4a59;
+  --accent-hi: #46586a;
+  --brass-rgb: 168 139 90;
+  --brass-deep-rgb: 116 92 50;
+  --brass-soft: #E2D3B5;
+  --ink: #1c242b;
+  --ink-2: #3a4650;
+  --muted-rgb: 94 104 112;
+  --shadow-rgb: 20 28 36;
+  --light-rgb: 250 251 252;
+  --medal-hi: #f3f1ea;
+  --medal-lo: #dbd8cc;
+  --deckle-1: #e4e7ea;
+  --deckle-2: #d3d8dc;
+  --ink-core: #A88B5A;
+  --ink-glow: #EFE3C6;
+}
+
+/* Patola — Patan silk green, ruby and gold */
+:root[data-theme='patola'] {
+  --parchment-rgb: 243 239 226;
+  --paper-rgb: 251 249 242;
+  --paper-hi: #fefdf8;
+  --paper-lo: #ebe5d2;
+  --accent-rgb: 31 81 48;
+  --accent-2: #2b6a40;
+  --accent-hi: #2e6b42;
+  --brass-rgb: 201 163 58;
+  --brass-deep-rgb: 141 108 26;
+  --brass-soft: #EFD999;
+  --ink: #1c2a1f;
+  --ink-2: #3c4b3e;
+  --muted-rgb: 96 102 84;
+  --shadow-rgb: 26 40 26;
+  --light-rgb: 253 252 240;
+  --medal-hi: #f8f1da;
+  --medal-lo: #e6d8a9;
+  --deckle-1: #ece6d4;
+  --deckle-2: #ddd4bb;
+  --ink-core: #C9A33A;
+  --ink-glow: #F6E3A2;
+}
+
+/* Ajrakh — Kutch indigo and madder red */
+:root[data-theme='ajrakh'] {
+  --parchment-rgb: 239 234 224;
+  --paper-rgb: 250 247 241;
+  --paper-hi: #fefcf8;
+  --paper-lo: #e9e2d4;
+  --accent-rgb: 30 42 85;
+  --accent-2: #2a3a72;
+  --accent-hi: #33437c;
+  --brass-rgb: 162 59 42;
+  --brass-deep-rgb: 120 40 28;
+  --brass-soft: #E7B8A8;
+  --ink: #1a1e33;
+  --ink-2: #3a3e56;
+  --muted-rgb: 100 94 104;
+  --shadow-rgb: 24 22 40;
+  --light-rgb: 252 250 245;
+  --medal-hi: #f7ece6;
+  --medal-lo: #e5cfc6;
+  --deckle-1: #ebe4d6;
+  --deckle-2: #dcd2c0;
+  --ink-core: #B9533F;
+  --ink-glow: #F2C9B8;
+}
+
+/* Rann — Salt-white desert, deep indigo */
+:root[data-theme='rann'] {
+  --parchment-rgb: 245 244 239;
+  --paper-rgb: 252 252 250;
+  --paper-hi: #ffffff;
+  --paper-lo: #ecebe4;
+  --accent-rgb: 35 53 110;
+  --accent-2: #2e4384;
+  --accent-hi: #3a4f90;
+  --brass-rgb: 183 165 126;
+  --brass-deep-rgb: 124 108 72;
+  --brass-soft: #E6DCC4;
+  --ink: #1a2033;
+  --ink-2: #3a4057;
+  --muted-rgb: 98 102 116;
+  --shadow-rgb: 22 28 48;
+  --light-rgb: 255 255 255;
+  --medal-hi: #f6f4ee;
+  --medal-lo: #e2ddcf;
+  --deckle-1: #eeede7;
+  --deckle-2: #dedcd2;
+  --ink-core: #B7A57E;
+  --ink-glow: #F0E8D2;
+}
+
+/* Sabarmati — River blue-grey and copper */
+:root[data-theme='sabarmati'] {
+  --parchment-rgb: 231 236 235;
+  --paper-rgb: 247 249 249;
+  --paper-hi: #fcfdfd;
+  --paper-lo: #dfe5e4;
+  --accent-rgb: 46 78 92;
+  --accent-2: #3a6173;
+  --accent-hi: #40687a;
+  --brass-rgb: 181 118 60;
+  --brass-deep-rgb: 128 80 36;
+  --brass-soft: #EBC9A6;
+  --ink: #1b2a31;
+  --ink-2: #3a4b53;
+  --muted-rgb: 92 104 108;
+  --shadow-rgb: 18 34 40;
+  --light-rgb: 250 252 252;
+  --medal-hi: #f4eee6;
+  --medal-lo: #e0d2c2;
+  --deckle-1: #e3e9e8;
+  --deckle-2: #d2dad9;
+  --ink-core: #C17F43;
+  --ink-glow: #F4D3B0;
+}
+
+/* Bandhani — Tie-dye crimson and saffron */
+:root[data-theme='bandhani'] {
+  --parchment-rgb: 247 235 221;
+  --paper-rgb: 252 247 240;
+  --paper-hi: #fffbf6;
+  --paper-lo: #f2e2cf;
+  --accent-rgb: 142 27 44;
+  --accent-2: #a32a3c;
+  --accent-hi: #a3303f;
+  --brass-rgb: 227 155 45;
+  --brass-deep-rgb: 160 100 16;
+  --brass-soft: #F6D195;
+  --ink: #2d1418;
+  --ink-2: #553338;
+  --muted-rgb: 120 90 86;
+  --shadow-rgb: 60 18 20;
+  --light-rgb: 255 248 238;
+  --medal-hi: #fdf0dc;
+  --medal-lo: #f0d4ab;
+  --deckle-1: #f3e4d0;
+  --deckle-2: #e5d0b6;
+  --ink-core: #E39B2D;
+  --ink-glow: #FFE0A8;
+}
+
+/* Derived tokens that depend on the theme */
+:root {
+  --oxblood-2: var(--accent-2);
+}
+
+/* ---------- Time of day in Ahmedabad (the "fourth dimension") ----------
+   main.js sets data-daylight from India Standard Time; the paper is lit
+   accordingly. Subtle on purpose: text contrast never changes. */
+body::before {
+  content: '';
+  position: fixed; inset: 0; z-index: 0; pointer-events: none;
+  transition: background 2s ease;
+}
+:root[data-daylight='dawn'] body::before { background: linear-gradient(170deg, rgb(255 196 170 / 0.16), transparent 45%); }
+:root[data-daylight='day'] body::before { background: radial-gradient(ellipse at 70% -10%, rgb(255 255 245 / 0.5), transparent 55%); }
+:root[data-daylight='dusk'] body::before { background: linear-gradient(200deg, rgb(255 168 76 / 0.16), transparent 55%); }
+:root[data-daylight='night'] body::before {
+  background:
+    radial-gradient(circle at calc(100% - 60px) calc(100% - 60px), rgb(255 214 140 / 0.22), transparent 340px),
+    linear-gradient(180deg, rgb(var(--shadow-rgb) / 0.07), rgb(var(--shadow-rgb) / 0.03));
+}
